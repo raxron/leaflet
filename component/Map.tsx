@@ -35,7 +35,7 @@ const Map = () => {
             center={[49.24966, -123.00934]} zoom={14} scrollWheelZoom={true}
         >
             <TileLayer
-                attribution='&copy; <a href="">By Rachel Xia</a> contributors'
+                attribution='&copy; <a href="https://github.com/raxron/leaflet">By Rachel Xia</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={[49.24966, -123.00934]} icon={icon}>
